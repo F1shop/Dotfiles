@@ -5,13 +5,9 @@ Please note: this easy installation deletes the i3 configuration file. If you wi
 If you want to use it for productivity or a base for your rice :
 (On Arch)
 
-cd .config
-
 sudo pacman -S git
 
-git clone https://github.com/F1shop/Dotfiles
-
-cd Dotfiles
+cd .config
 
 sudo pacman -S -needed alacritty thunar alacritty picom polybar rofi i3 neofetch
 
@@ -23,7 +19,7 @@ rm -rf alacritty i3 picom readme.md Thunar neofetch polybar rofi dotfiles
 
 git clone https://github.com/F1shop/Dotfiles
 
-cd dotfiles
+cd Dotfiles
 
 mv alacritty i3 picom readme.md Thunar neofetch polybar rofi ~/.config/
 
