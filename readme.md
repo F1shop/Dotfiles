@@ -59,11 +59,11 @@ sudo mkdir /usr/local/share/fonts/
 
 mkdir 0xProto
 
-mv 0xProtoNerdFontPropo-Regular.ttf /0xProto
+sudo mv 0xProtoNerdFontPropo-Regular.ttf ~/.config/Dotfiles/0xProto
 
-mv 0xProtoNerdFont-Regular.ttf /0xProto
+sudo mv 0xProtoNerdFont-Regular.ttf ~/.config/Dotfiles/0xProto
 
-mv 0xProtoNerdFontPropo-Regular.ttf /0xProto
+sudo mv 0xProtoNerdFontPropo-Regular.ttf ~/.config/Dotfiles/0xProto
 
 sudo cp 0xProto /usr/local/share/fonts/
 
