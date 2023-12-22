@@ -15,7 +15,7 @@ cd
 
 cd .config
 
-rm -rf alacritty i3 picom readme.md Thunar neofetch polybar rofi dotfiles
+rm -rf alacritty i3 picom readme.md Thunar neofetch polybar rofi Dotfiles
 
 git clone https://github.com/F1shop/Dotfiles
 
