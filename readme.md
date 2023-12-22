@@ -11,7 +11,7 @@ sudo pacman -S git
 
 git clone https://github.com/F1shop/Dotfiles
 
-cd dotfiles
+cd Dotfiles
 
 chmod +x install.sh
 
