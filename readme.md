@@ -9,7 +9,7 @@ sudo pacman -S git
 
 cd .config
 
-sudo pacman -S -needed alacritty thunar alacritty picom polybar rofi i3 neofetch
+sudo pacman -S -needed alacritty thunar alacritty picom polybar rofi i3 neofetch feh
 
 cd
 
@@ -33,7 +33,7 @@ rm -rf .wallpapers
 
 mkdir .wallpapers
 
-cp ~/.config/dotfiles/wallpaper.jpg ~/.config/.wallpapers
+cp ~/.config/Dotfiles/wallpaper.jpg ~/.config/.wallpapers
 
 cd
 
@@ -47,15 +47,11 @@ rm -rf ~/.local/share/rofi/themes/
 
 cp -r themes ~/.local/share/rofi/
 
-rm -rf ~/.config/dotfiles
+rm -rf ~/.config/Dotfiles
 
 cd
 
 rm -rf ~/rofi-themes-collection
-
-cd .config
-
-rm -rf Dotfiles
 
 echo Download completed
 
