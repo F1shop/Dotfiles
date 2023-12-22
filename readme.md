@@ -53,6 +53,8 @@ cd .config/Dotfiles
 
 tar -xf 0xProto.tar
 
+mkdir /usr/local/share/fonts/
+
 cp 0xProto /usr/local/share/fonts/
 
 cd
