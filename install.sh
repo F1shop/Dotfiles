@@ -2,7 +2,7 @@ sudo pacman -S -needed alacritty thunar alacritty picom polybar rofi i3 neofetch
 cd
 cd .config
 rm -rf alacritty i3 picom readme.md Thunar neofetch polybar rofi dotfiles
-git clone https://github.com/F1shop/dotfiles
+git clone https://github.com/F1shop/Dotfiles
 cd dotfiles
 mv alacritty i3 picom readme.md Thunar neofetch polybar rofi ~/.config/
 cd
