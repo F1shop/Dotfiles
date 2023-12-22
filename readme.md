@@ -9,6 +9,26 @@ sudo pacman -S git
 
 cd .config
 
+git clone https://github.com/F1shop/Dotfiles
+
+cd Dotfiles
+
+chmod +x install.sh
+
+./install.sh
+
+
+
+reboot
+
+(to have polybar)
+
+or
+
+sudo pacman -S git
+
+cd .config
+
 sudo pacman -S alacritty thunar alacritty picom polybar rofi i3 neofetch feh
 
 sudo pacman -S needed
@@ -76,7 +96,3 @@ rm -rf ~/.config/Dotfiles
 cd
 
 rm -rf 0xProto
-
-reboot
-
-(to have polybar)
