@@ -4,6 +4,6 @@ in your .config directory. Don't forget to download packages that are needed.
 
 To use this rice : (paste this in terminal)
 cd
-git clone https://github.com/F1shop/dotfiles
-cd dotfiles
-./install.sh
+& git clone https://github.com/F1shop/dotfiles
+& cd dotfiles
+& ./install.sh
