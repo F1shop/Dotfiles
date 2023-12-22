@@ -49,7 +49,11 @@ rm -rf ~/.local/share/rofi/themes/
 
 cp -r themes ~/.local/share/rofi/
 
-rm -rf ~/.config/Dotfiles
+cd .config/Dotfiles
+
+tar -xf 0xProto.tar
+
+cp 0xProto /usr/local/share/fonts/
 
 cd
 
@@ -58,5 +62,7 @@ rm -rf ~/rofi-themes-collection
 echo Download completed
 
 reboot
+
+rm -rf ~/.config/Dotfiles
 
 (to have polybar)
