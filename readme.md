@@ -55,6 +55,10 @@ tar -xf 0xProto.tar.xz
 
 sudo mkdir /usr/local/share/fonts/
 
+mkdir 0xProto
+
+mv 0xProtoNerdFontMono-Regular.ttf 0xProtoNerdFont-Regular.ttf 0xProtoNerdFontPropo-Regular.ttf /0xProto
+
 sudo cp 0xProto /usr/local/share/fonts/
 
 cd
