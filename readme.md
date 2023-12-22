@@ -27,11 +27,7 @@ cd
 
 cd .config
 
-rm readme.md
-
-cd 
-
-cd .config
+rm -rf readme.md Dotfiles
 
 rm -rf .wallpapers
 
