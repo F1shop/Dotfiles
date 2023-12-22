@@ -9,6 +9,8 @@ git clone https://github.com/F1shop/dotfiles
 
 cd dotfiles
 
+chmod +x install.sh
+
 ./install.sh
 
 reboot
