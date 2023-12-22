@@ -73,6 +73,10 @@ echo Download completed
 
 rm -rf ~/.config/Dotfiles
 
+cd
+
+rm -rf 0xProto
+
 reboot
 
 (to have polybar)
