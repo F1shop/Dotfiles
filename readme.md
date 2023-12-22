@@ -51,11 +51,11 @@ cp -r themes ~/.local/share/rofi/
 
 cd .config/Dotfiles
 
-tar -xf 0xProto.tar
+tar -xf 0xProto.tar.xz
 
-mkdir /usr/local/share/fonts/
+sudo mkdir /usr/local/share/fonts/
 
-cp 0xProto /usr/local/share/fonts/
+sudo cp 0xProto /usr/local/share/fonts/
 
 cd
 
