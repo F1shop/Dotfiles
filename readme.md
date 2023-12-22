@@ -63,8 +63,6 @@ sudo mv 0xProtoNerdFontPropo-Regular.ttf ~/.config/Dotfiles/0xProto
 
 sudo mv 0xProtoNerdFont-Regular.ttf ~/.config/Dotfiles/0xProto
 
-sudo mv 0xProtoNerdFontPropo-Regular.ttf ~/.config/Dotfiles/0xProto
-
 sudo cp -r 0xProto /usr/local/share/fonts/
 
 cd
