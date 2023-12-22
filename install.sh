@@ -1,3 +1,4 @@
+sudo pacman -S -needed alacritty thunar alacritty picom polybar rofi i3 neofetch
 cd
 cd .config
 rm -rf alacritty i3 picom readme.md Thunar neofetch polybar rofi dotfiles
@@ -7,7 +8,6 @@ mv alacritty i3 picom readme.md Thunar neofetch polybar rofi ~/.config/
 cd
 cd .config
 rm readme.md
-sudo pacman -S -needed thunar alacritty picom polybar rofi i3 neofetch
 cd 
 cd .config
 rm -rf .wallpapers
