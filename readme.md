@@ -27,7 +27,7 @@ cd
 
 cd .config
 
-rm -rf readme.md Dotfiles
+rm readme.md
 
 rm -rf .wallpapers
 
@@ -52,6 +52,10 @@ rm -rf ~/.config/dotfiles
 cd
 
 rm -rf ~/rofi-themes-collection
+
+cd .config
+
+rm -rf Dotfiles
 
 echo Download completed
 
