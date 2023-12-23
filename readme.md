@@ -17,6 +17,8 @@ chmod +x install.sh
 
 ./install.sh
 
+#if the install.sh don't work then copy and paste it in your terminal
+
 reboot
 
 (to have polybar)
