@@ -1,4 +1,4 @@
-This is a minimal rice.
+This is a minimal rice for productivity.
 
 Please note: this easy installation deletes the i3 configuration file. If you wish to keep your i3 configuration file, save it in a directory other than .config.
 
@@ -22,3 +22,5 @@ reboot
 (to have polybar)
 
 You can check in the i3 config file for shortcuts.
+
+You can check how I did it here: https://youtu.be/IkTPJe7FXdU?si=Y0IeMs04FKbiuINk
