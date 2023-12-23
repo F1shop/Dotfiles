@@ -4,8 +4,6 @@ cd .config
 
 sudo pacman -S alacritty thunar alacritty picom polybar rofi i3 neofetch feh
 
-sudo pacman -S needed
-
 cd
 
 cd .config
